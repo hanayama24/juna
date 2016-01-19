@@ -1,0 +1,10 @@
+@media only screen and (max-width: 1800px) {
+  .image-container {
+    width: 33.3333%
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .image-container {
+    width: 50%;
+  }
+}

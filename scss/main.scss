@@ -19,6 +19,7 @@ body {
   color: #fff;
   padding-left: 25px;
   padding-right: 25px;
+  box-sizing: border-box;
   a {
     text-decoration: none;
     font-size: 13px;
@@ -56,7 +57,7 @@ body {
   height: 200px;
 }
 .content {
-  width: calc(100% - 300px);
+  width: calc(100% - 250px);
   float: right;
 }
 .image-container {
@@ -68,9 +69,8 @@ body {
 .image-item {
   width: 100%;
   height: auto;
-
   img {
-    width: 100%;
+    width: 101%;
     height: auto;
   }
 }
