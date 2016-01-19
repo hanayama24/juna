@@ -50,7 +50,8 @@ body {
 .image-container {
   display: inline-block;
   width: 25%;
-  margin-left: -4px; }
+  margin-left: -4px;
+  margin-top: -5px; }
 
 .image-item {
   width: 100%;
