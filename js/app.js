@@ -3,10 +3,18 @@ $(document).ready(function(){
   var globalDebug = true;
 /* --- NICESCROLL INIT--- */
 
+if(globalDebug) {
+  $('.image-container .image-hover .div-hover').each(function() {
+    $(this).hoverdir();
+  });
+}
+
 function niceScrollInit() {
 	if (globalDebug) {console.log("NiceScroll - Init");}
 
 	var smoothScroll = $('body').data('smoothscrolling') !== undefined;
+
+
 
 	if ($('.site-navigation').length) {
 		var offset = $('.site-navigation').offset();
