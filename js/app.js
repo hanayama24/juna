@@ -9,6 +9,12 @@ if(globalDebug) {
   });
 }
 
+if(globalDebug) {
+  $('.image-container .image-hover .div-hover-bottom').each(function() {
+    $(this).hoverdir();
+  });
+}
+
 function niceScrollInit() {
 	if (globalDebug) {console.log("NiceScroll - Init");}
 
