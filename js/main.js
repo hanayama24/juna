@@ -1451,6 +1451,7 @@ function animateGallery(direction) {
 
 	$('.mosaic__item').each(function(){
 		var $item = $(this);
+		console.log("Animate Gallery " + direction);
 		setTimeout(function() {
 			$item.addClass('slide-' + direction);
 		}, 80 * Math.floor((Math.random()*5)+1));
