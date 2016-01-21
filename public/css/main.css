@@ -108,10 +108,31 @@ body {
 .item-cell {
   position: absolute;
   bottom: 0;
-  left: 0; }
+  left: 0;
+  width: 100%; }
   .item-cell h4 {
-    padding-left: 20px;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding: 5px 40px 5px 40px;
     color: #242423;
     font-family: "Slabo 27px", serif;
     font-weight: 400;
     font-size: 18px; }
+  .item-cell span.folder {
+    background: url("../../img/icon/folder.png") no-repeat center;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 5px;
+    left: -15px; }
+  .item-cell span.heart {
+    background: url("../../img/icon/heart.png") no-repeat center;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 10px;
+    float: right;
+    cursor: pointer; }
