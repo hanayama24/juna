@@ -11,6 +11,7 @@ body {
   font-family: $sans;
   margin: 0;
   padding: 0;
+  min-width: 450px;
 }
 
 .nav-side-menu {
@@ -24,6 +25,9 @@ body {
   padding-left: 25px;
   padding-right: 25px;
   box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+
+
   a {
     text-decoration: none;
     font-size: 13px;
