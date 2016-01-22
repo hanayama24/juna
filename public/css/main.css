@@ -45,6 +45,9 @@ body {
 
 .logo {
   height: 200px; }
+  .logo img {
+    width: 100%;
+    height: auto; }
 
 .content {
   width: calc(100% - 250px);
