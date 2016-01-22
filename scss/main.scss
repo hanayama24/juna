@@ -26,8 +26,6 @@ body {
   padding-right: 25px;
   box-sizing: border-box;
   transition: all 0.3s ease-in-out;
-
-
   a {
     text-decoration: none;
     font-size: 13px;
@@ -67,11 +65,14 @@ body {
 .content {
   width: calc(100% - 250px);
   float: right;
+  div:nth-child(4) a {
+    cursor: default;
+  }
 }
 .image-container {
   display: inline-block;
   position: relative;
-  width: 25%;
+  width: 33.3333%;
   margin-left: -4px;
   margin-top: -5px;
   a {
@@ -86,6 +87,25 @@ body {
   img {
     width: 101%;
     height: auto;
+  }
+}
+.welcome-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 5px;
+  right: 0;
+  z-index: 2000;
+  background: $yellow;
+  opacity: 0.9;
+  h3 {
+    text-align: center;
+    font-size: 2.3vw;
+    color: $grey;
+    font-family: $title;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 12%;
   }
 }
 .image-hover {

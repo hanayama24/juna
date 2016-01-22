@@ -1,11 +1,22 @@
 @media only screen and (max-width: 1800px) {
   .image-container {
-    width: 33.3333%
+    width: 33.3333%;
   }
+}
+@media only screen and (max-width: 1500px) {
+  /*.welcome-hover h3 {
+    font-size: 200%;
+  }*/
 }
 @media only screen and (max-width: 1200px) {
   .image-container {
     width: 50%;
+  }
+  .welcome-hover h3 {
+    font-size: 3.3vw;
+  }
+  .content>div:last-child {
+    display: none;
   }
 }
 @media only screen and (max-width: 990px) {
@@ -44,5 +55,9 @@
   }
   .item-cell h4 {
     font-size: 200%;
+  }
+  .welcome-hover h3 {
+    font-size: 6.3vw;
+    margin-top: 16%;
   }
 }
