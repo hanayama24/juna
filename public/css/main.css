@@ -161,3 +161,64 @@ body {
     top: 10px;
     float: right;
     cursor: pointer; }
+
+.social-icon {
+  margin-top: 40px;
+  position: absolute;
+  bottom: 1%; }
+  .social-icon h4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 18px;
+    color: #91908e; }
+  .social-icon h5 {
+    text-align: center;
+    font-weight: 300;
+    margin-top: 50px;
+    color: #96CA2D;
+    position: relative;
+    bottom: 10px; }
+
+ul.site-social-links {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  ul.site-social-links li {
+    display: inline-block;
+    border: none; }
+  ul.site-social-links li:hover {
+    background: inherit; }
+  ul.site-social-links li:first-child {
+    border: none; }
+    ul.site-social-links li:first-child:hover {
+      background: inherit; }
+    ul.site-social-links li:first-child span {
+      display: inline-block;
+      width: 48px;
+      height: 48px;
+      background: url("../../img/icon/email-gray.png") no-repeat center; }
+      ul.site-social-links li:first-child span:hover {
+        background: url("../../img/icon/email.png") no-repeat center; }
+  ul.site-social-links li:nth-child(2) {
+    border: none; }
+    ul.site-social-links li:nth-child(2):hover {
+      background: inherit; }
+    ul.site-social-links li:nth-child(2) span {
+      display: inline-block;
+      width: 48px;
+      height: 48px;
+      background: url("../../img/icon/facebook-gray.png") no-repeat center; }
+      ul.site-social-links li:nth-child(2) span:hover {
+        background: url("../../img/icon/facebook.png") no-repeat center; }
+  ul.site-social-links li:nth-child(3) {
+    border: none; }
+    ul.site-social-links li:nth-child(3):hover {
+      background: inherit; }
+    ul.site-social-links li:nth-child(3) span {
+      display: inline-block;
+      width: 48px;
+      height: 48px;
+      background: url("../../img/icon/googleplus-gray.png") no-repeat center; }
+      ul.site-social-links li:nth-child(3) span:hover {
+        background: url("../../img/icon/googleplus.png") no-repeat center; }

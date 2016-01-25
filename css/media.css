@@ -61,3 +61,8 @@
     margin-top: 16%;
   }
 }
+@media only screen and (max-height: 725px) {
+  .social-icon {
+    position: relative;
+  }
+}
