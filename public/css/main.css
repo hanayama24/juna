@@ -209,30 +209,61 @@ ul.site-social-links {
       background: inherit; }
     ul.site-social-links li:first-child span {
       display: inline-block;
-      width: 48px;
-      height: 48px;
-      background: url("../../img/icon/email-gray.png") no-repeat center; }
+      width: 33px;
+      height: 33px;
+      background: url("../../img/icon/icons.png") no-repeat center;
+      background-position: 0 -1150px; }
       ul.site-social-links li:first-child span:hover {
-        background: url("../../img/icon/email.png") no-repeat center; }
+        background: url("../../img/icon/icons.png") no-repeat center;
+        background-position: 0 -1282px;
+        -moz-transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
   ul.site-social-links li:nth-child(2) {
     border: none; }
     ul.site-social-links li:nth-child(2):hover {
       background: inherit; }
     ul.site-social-links li:nth-child(2) span {
       display: inline-block;
-      width: 48px;
-      height: 48px;
-      background: url("../../img/icon/facebook-gray.png") no-repeat center; }
+      width: 33px;
+      height: 33px;
+      background: url("../../img/icon/icons.png") no-repeat center;
+      background-position: 0 -1755px; }
       ul.site-social-links li:nth-child(2) span:hover {
-        background: url("../../img/icon/facebook.png") no-repeat center; }
+        background: url("../../img/icon/icons.png") no-repeat center;
+        background-position: 0 -1886px;
+        -moz-transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
   ul.site-social-links li:nth-child(3) {
     border: none; }
     ul.site-social-links li:nth-child(3):hover {
       background: inherit; }
     ul.site-social-links li:nth-child(3) span {
       display: inline-block;
-      width: 48px;
-      height: 48px;
-      background: url("../../img/icon/googleplus-gray.png") no-repeat center; }
+      width: 33px;
+      height: 33px;
+      background: url("../../img/icon/icons.png") no-repeat center;
+      background-position: 0 -3436px; }
       ul.site-social-links li:nth-child(3) span:hover {
-        background: url("../../img/icon/googleplus.png") no-repeat center; }
+        background: url("../../img/icon/icons.png") no-repeat center;
+        background-position: 0 -3568px;
+        -moz-transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
+  ul.site-social-links li:nth-child(4) {
+    border: none; }
+    ul.site-social-links li:nth-child(4):hover {
+      background: inherit; }
+    ul.site-social-links li:nth-child(4) span {
+      display: inline-block;
+      width: 33px;
+      height: 33px;
+      background: url("../../img/icon/icons.png") no-repeat center;
+      background-position: 0 -5107px; }
+      ul.site-social-links li:nth-child(4) span:hover {
+        background: url("../../img/icon/icons.png") no-repeat center;
+        background-position: 0 -5239px;
+        -moz-transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out; }
