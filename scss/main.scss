@@ -1,6 +1,7 @@
 $grey: #242423;
 $grey-light: #2b2b2b;
 $text-light: #91908e;
+$text-darker: #595957;
 $border-list: #333638;
 $violet: #FF3B77;
 $yellow: rgba(255,252,0, 0.8);
@@ -328,113 +329,43 @@ ul.site-social-links {
     }
   }
 }
+///////////  about page  ///////////////////
 .about-template {
-  width: 50%;
-  max-width: 900px;
+  width: 80%;
+  max-width: 1100px;
+  margin-left: 40px;
 }
-.template-header {
-  padding: 25px;
+.entry-title {
+  font-size: 2.6rem;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.entry-body {
+  p {
+    font-weight: 500;
+    text-align: justify;
+    color: $text-darker;
+    font-size: 1rem;
+    text-indent: 20px;
+  }
+  p:last-child {
+    text-align: center;
+  }
+}
+.about-image {
+  width: 300px;
+  height: 430px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background: url("../about/julia-about-300.jpg") no-repeat center;
+  float: left;
 }
 
-///// animation //////
-
-
-.entry__title {
-  
-  -moz-backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-perspective: 1000px;
-  -webkit-perspective: 1000px;
-  perspective: 1000px; }
-.no-android-browser.no-cssanimations.loaded .single .entry__title, .no-android-browser.no-cssanimations.loaded
-.page .entry__title {
-  opacity: 1; }
-.no-android-browser.no-cssanimations.loading .single .entry__title, .no-android-browser.no-cssanimations.loading
-.page .entry__title {
-  opacity: 0; }
-.entry__title {
-  -webkit-animation: slidein 0.45s 0.15s cubic-bezier(0.175, 0.885, 0.320, 1.000) forwards, fadein 0.45s 0.15s ease-in-out forwards;
-  -webkit-animation: slidein 0.45s 0.15s cubic-bezier(0.175, 0.885, 0.320, 1.275) forwards, fadein 0.45s 0.15s ease-in-out forwards;
-  -moz-animation: slidein 0.45s 0.15s cubic-bezier(0.175, 0.885, 0.320, 1.275) forwards, fadein 0.45s 0.15s ease-in-out forwards;
-  -o-animation: slidein 0.45s 0.15s cubic-bezier(0.175, 0.885, 0.320, 1.275) forwards, fadein 0.45s 0.15s ease-in-out forwards;
-  animation: slidein 0.45s 0.15s cubic-bezier(0.175, 0.885, 0.320, 1.275) forwards, fadein 0.45s 0.15s ease-in-out forwards; }
-.no-android-browser.cssanimations.loading .single .entry__title, .no-android-browser.cssanimations.loading
-.page .entry__title {
-  opacity: 1;
-  -webkit-animation: slideout 0.45s 0.15s cubic-bezier(0.420, 0.000, 0.580, 1.000) forwards, fadeout 0.45s 0.15s ease-in-out forwards;
-  -webkit-animation: slideout 0.45s 0.15s cubic-bezier(0.600, -0.280, 0.735, 0.045) forwards, fadeout 0.45s 0.15s ease-in-out forwards;
-  -moz-animation: slideout 0.45s 0.15s cubic-bezier(0.600, -0.280, 0.735, 0.045) forwards, fadeout 0.45s 0.15s ease-in-out forwards;
-  -o-animation: slideout 0.45s 0.15s cubic-bezier(0.600, -0.280, 0.735, 0.045) forwards, fadeout 0.45s 0.15s ease-in-out forwards;
-  animation: slideout 0.45s 0.15s cubic-bezier(0.600, -0.280, 0.735, 0.045) forwards, fadeout 0.45s 0.15s ease-in-out forwards; }
-
-.no-android-browser .single .separator--dotted, .no-android-browser
-.page .separator--dotted {
-  -moz-backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-perspective: 1000px;
-  -webkit-perspective: 1000px;
-  perspective: 1000px; }
-.no-android-browser.cssanimations.loaded .single .separator--dotted, .no-android-browser.cssanimations.loaded
-.page .separator--dotted {
-  -webkit-animation: slidein-fromleft 0.3s 0.3s cubic-bezier(0.175, 0.885, 0.320, 1.000) forwards;
-  -webkit-animation: slidein-fromleft 0.3s 0.3s cubic-bezier(0.175, 0.885, 0.320, 1.275) forwards;
-  -moz-animation: slidein-fromleft 0.3s 0.3s cubic-bezier(0.175, 0.885, 0.320, 1.275) forwards;
-  -o-animation: slidein-fromleft 0.3s 0.3s cubic-bezier(0.175, 0.885, 0.320, 1.275) forwards;
-  animation: slidein-fromleft 0.3s 0.3s cubic-bezier(0.175, 0.885, 0.320, 1.275) forwards; }
-.no-android-browser.cssanimations.loading .single .separator--dotted, .no-android-browser.cssanimations.loading
-.page .separator--dotted {
-  -webkit-animation: slideout-toright 0.2s 0.3s cubic-bezier(0.420, 0.000, 0.580, 1.000) forwards;
-  -webkit-animation: slideout-toright 0.2s 0.3s cubic-bezier(0.600, -0.280, 0.735, 0.045) forwards;
-  -moz-animation: slideout-toright 0.2s 0.3s cubic-bezier(0.600, -0.280, 0.735, 0.045) forwards;
-  -o-animation: slideout-toright 0.2s 0.3s cubic-bezier(0.600, -0.280, 0.735, 0.045) forwards;
-  animation: slideout-toright 0.2s 0.3s cubic-bezier(0.600, -0.280, 0.735, 0.045) forwards; }
-.no-android-browser.no-cssanimations.loaded .single .separator--dotted, .no-android-browser.no-cssanimations.loaded
-.page .separator--dotted {
-  opacity: 1; }
-.no-android-browser.no-cssanimations.loading .single .separator--dotted, .no-android-browser.no-cssanimations.loading
-.page .separator--dotted {
-  opacity: 0; }
-
-.no-android-browser .single .entry__body, .no-android-browser
-.page .entry__body {
-  opacity: 0; }
-.no-android-browser.no-cssanimations.loaded .single .entry__body, .touch .single .entry__body, .no-android-browser.no-cssanimations.loaded
-.page .entry__body, .touch
-.page .entry__body {
-  -webkit-animation: none !important;
-  -moz-animation: none !important;
-  -o-animation: none !important;
-  animation: none !important;
-  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-  opacity: 1; }
-.no-android-browser.no-cssanimations.loading .single .entry__body, .no-android-browser.no-cssanimations.loading
-.page .entry__body {
-  opacity: 0; }
-.no-android-browser.cssanimations .single .entry__body, .no-android-browser.cssanimations
-.page .entry__body {
-  -webkit-animation: slidein 0.35s 0.25s cubic-bezier(0.175, 0.885, 0.320, 1.000) forwards, fadein 0.35s 0.25s ease-in-out forwards;
-  -webkit-animation: slidein 0.35s 0.25s cubic-bezier(0.175, 0.885, 0.320, 1.275) forwards, fadein 0.35s 0.25s ease-in-out forwards;
-  -moz-animation: slidein 0.35s 0.25s cubic-bezier(0.175, 0.885, 0.320, 1.275) forwards, fadein 0.35s 0.25s ease-in-out forwards;
-  -o-animation: slidein 0.35s 0.25s cubic-bezier(0.175, 0.885, 0.320, 1.275) forwards, fadein 0.35s 0.25s ease-in-out forwards;
-  animation: slidein 0.35s 0.25s cubic-bezier(0.175, 0.885, 0.320, 1.275) forwards, fadein 0.35s 0.25s ease-in-out forwards; }
-.no-android-browser.cssanimations.noanims .single .entry__body, .no-android-browser.cssanimations.noanims
-.page .entry__body {
-  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
-  opacity: 1;
-  -webkit-animation: none;
-  -moz-animation: none;
-  -o-animation: none;
-  animation: none;
-  -moz-backface-visibility: visible;
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible; }
-.no-android-browser.cssanimations.loading .single .entry__body, .no-android-browser.cssanimations.loading
-.page .entry__body {
-  opacity: 1;
-  -webkit-animation: slideout 0.35s 0.25s cubic-bezier(0.420, 0.000, 0.580, 1.000) forwards, fadeout 0.35s 0.25s ease-in-out forwards;
-  -webkit-animation: slideout 0.35s 0.25s cubic-bezier(0.600, -0.280, 0.735, 0.045) forwards, fadeout 0.35s 0.25s ease-in-out forwards;
-  -moz-animation: slideout 0.35s 0.25s cubic-bezier(0.600, -0.280, 0.735, 0.045) forwards, fadeout 0.35s 0.25s ease-in-out forwards;
-  -o-animation: slideout 0.35s 0.25s cubic-bezier(0.600, -0.280, 0.735, 0.045) forwards, fadeout 0.35s 0.25s ease-in-out forwards;
-  animation: slideout 0.35s 0.25s cubic-bezier(0.600, -0.280, 0.735, 0.045) forwards, fadeout 0.35s 0.25s ease-in-out forwards; }
+blockquote {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left: 3px solid #ccc;
+}

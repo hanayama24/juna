@@ -15,7 +15,7 @@
   .welcome-hover h3 {
     font-size: 3.3vw;
   }
-  .content>div:last-child {
+  .content .image-last {
     display: none;
   }
 }
@@ -70,6 +70,18 @@
   .welcome-hover h3 {
     font-size: 6.3vw;
     margin-top: 16%;
+  }
+  .about-template {
+    width: 100%;
+    margin-top: 80px;
+    margin-left: 0px;
+  }
+  .entry-body {
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  .entry-header {
+    margin-left: 35px;
   }
 }
 @media only screen and (max-height: 725px) {
