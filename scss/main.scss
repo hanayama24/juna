@@ -41,34 +41,56 @@ body {
     padding: 0;
     list-style: none;
     li:first-child {
-      border-top: 1px solid $border-list;
-      border-bottom: 1px solid $border-list;
+      .nav-list__link {
+        border-top: 1px solid $border-list;
+        border-bottom: 1px solid $border-list;
+      }
     }
-    li:hover {
-      background: $grey-light;
-      color: $violet;
-      cursor: pointer;
-      a {
+    .nav-list__link {
+      width: 100%;
+      display: inline-block;
+      padding-left: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid $border-list;
+      box-sizing: border-box;
+
+      &:hover {
+        background: $grey-light;
         color: $violet;
       }
     }
+
     li {
       height: 40px;
-      padding-left: 10px;
-      padding-top: 7px;
-      padding-bottom: 5px;
       box-sizing: border-box;
-      border-bottom: 1px solid $border-list;
+      cursor: pointer;
     }
   }
 }
+
+.dropdown-menu__link {
+    width: 100%;
+    display: inline-block;
+    padding-left: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    &:hover {
+        background: $grey-light;
+        color: #3498DB;
+    }
+}
+
 .logo {
   height: 200px;
+
   img {
     width: 100%;
     height: auto;
   }
 }
+
 .nav-device {
   position: absolute;
   top: 20px;
@@ -76,6 +98,7 @@ body {
   z-index: 2002;
   opacity: 0.8;
   display: none;
+
   span {
     display: inline-block;
     width: 22px;
@@ -84,9 +107,11 @@ body {
     cursor: pointer;
   }
 }
+
 .content {
   width: calc(100% - 250px);
   float: right;
+
   div:nth-child(4) a {
     cursor: default;
   }
@@ -98,20 +123,24 @@ body {
   width: 33.3333%;
   margin-left: -4px;
   margin-top: -5px;
+
   a {
     position: relative;
     width: 100%;
     display: block;
   }
 }
+
 .image-item {
   width: 100%;
   height: auto;
+
   img {
     width: 101%;
     height: auto;
   }
 }
+
 .welcome-hover {
   position: absolute;
   top: 0;
@@ -121,6 +150,7 @@ body {
   z-index: 2000;
   background: $yellow;
   opacity: 0.9;
+
   h3 {
     text-align: center;
     font-size: 2.3vw;
@@ -353,6 +383,7 @@ ul.site-social-links {
     text-align: center;
   }
 }
+
 .about-image {
   width: 300px;
   height: 430px;
@@ -368,4 +399,27 @@ blockquote {
   margin-left: 50px;
   padding-left: 15px;
   border-left: 3px solid #ccc;
+}
+
+///////////  dropdown menu  ///////////////////
+
+.list-galleries {
+  display: none;
+  li {
+    height: 20px;
+  }
+}
+.nav-side-menu .list-galleries {
+    margin-top: 5px;
+}
+
+.nav-list .list-galleries li {
+    height: 25px;
+}
+
+.nav-list ul .dropdown-menu_active {
+  height: 200px;
+  .nav-list__link {
+    border-bottom: 0;
+  }
 }

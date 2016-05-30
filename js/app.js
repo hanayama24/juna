@@ -21,7 +21,6 @@ function niceScrollInit() {
 	var smoothScroll = $('body').data('smoothscrolling') !== undefined;
 
 
-
 	if ($('.site-navigation').length) {
 		var offset = $('.site-navigation').offset();
 	}
@@ -40,4 +39,12 @@ function niceScrollInit() {
 	}
 }
   niceScrollInit();
+
+  /* --- DROPDOWN MENU--- */
+
+  $("#dropdownMenu").on("click", function(){
+      $(".list-galleries").toggle();
+      $(".nav-list__dropdown-menu").toggleClass("dropdown-menu_active");      
+  });
+
 });
