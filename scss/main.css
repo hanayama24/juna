@@ -48,7 +48,8 @@ body {
 .dropdown-menu__link {
   width: 100%;
   display: inline-block;
-  padding-left: 35px;
+  margin-left: 20px;
+  padding-left: 15px;
   padding-top: 5px;
   padding-bottom: 5px;
   box-sizing: border-box; }
@@ -106,7 +107,7 @@ body {
   left: 0;
   bottom: 5px;
   right: 0;
-  z-index: 2000;
+  z-index: 100;
   background: rgba(255, 252, 0, 0.8);
   opacity: 0.9; }
   .welcome-hover h3 {
@@ -124,7 +125,7 @@ body {
   left: 0;
   bottom: 5px;
   right: 0;
-  z-index: 2000;
+  z-index: 100;
   background: rgba(255, 252, 0, 0.8);
   opacity: 0;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
@@ -331,5 +332,130 @@ blockquote {
   height: 200px; }
   .nav-list ul .dropdown-menu_active .nav-list__link {
     border-bottom: 0; }
+
+.control-item {
+  display: inline-block; }
+
+.gallery-control--popup {
+  margin-top: 36px;
+  margin-top: 2rem;
+  margin-right: 6px;
+  margin-right: 0.33333rem;
+  position: relative; }
+
+.gallery-control__item {
+  vertical-align: top; }
+
+.arrow-button {
+  width: 20px;
+  width: 1.11111rem;
+  height: 20px;
+  height: 1.11111rem;
+  color: white;
+  border-color: white;
+  border-bottom: 2px solid;
+  -moz-transition: all 0.15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out; }
+
+.no-touch .arrow-button:hover {
+  border-color: #fffc00; }
+
+.arrow-button--left {
+  border-left: 2px solid;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin-right: 24px;
+  margin-right: 1.33333rem; }
+
+.arrow-button--right {
+  border-right: 2px solid;
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  margin-left: 24px;
+  margin-left: 1.33333rem; }
+
+.count {
+  font-family: "Josefin Slab", serif;
+  color: white;
+  font-size: 42px;
+  font-size: 2.33333rem;
+  line-height: 1.14296;
+  position: relative;
+  top: 3px;
+  top: 0.16667rem;
+  left: 0; }
+
+.count sup {
+  font-family: "Josefin Slab", serif;
+  font-size: 50%;
+  color: white;
+  top: -13px;
+  top: -0.72222rem;
+  left: 5px;
+  left: 0.27778rem; }
+
+.count sup:before {
+  position: relative;
+  top: 2px;
+  top: 0.11111rem;
+  left: -3px;
+  left: -0.16667rem;
+  content: "/"; }
+
+.masonry__item .gallery-control {
+  width: 100%;
+  height: 24px;
+  height: 1.33333rem;
+  left: 0;
+  right: auto; }
+
+.masonry__item .gallery-control .count {
+  text-align: right;
+  float: right;
+  position: absolute;
+  top: auto;
+  left: auto;
+  bottom: 0;
+  right: 24px;
+  right: 1.33333rem; }
+
+.masonry__item .gallery-control .arrow-button--left {
+  position: absolute;
+  left: 24px;
+  left: 1.33333rem;
+  bottom: 4px;
+  bottom: 0.22222rem; }
+
+.masonry__item .gallery-control .arrow-button--right {
+  position: absolute;
+  left: 24px;
+  left: 1.33333rem;
+  bottom: 4px;
+  bottom: 0.22222rem; }
+
+.mfp-title {
+  font-size: 24px;
+  font-size: 1.33333rem;
+  line-height: 1.0001; }
+
+.mfp-title small {
+  margin-top: 5px;
+  margin-top: 0.27778rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-size: 0.66667rem;
+  line-height: 1.0001;
+  font-weight: 300; }
+
+.control-item.count.js-gallery-current-slide {
+  font-family: 'Josefin Slab', serif; }
+
+button.mfp-arrow {
+  display: none !important; }
 
 /*# sourceMappingURL=main.css.map */
