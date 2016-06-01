@@ -29,6 +29,7 @@ body {
   padding-right: 25px;
   box-sizing: border-box;
   transition: all 0.3s ease-in-out;
+
   a {
     text-decoration: none;
     font-size: 13px;
@@ -36,16 +37,19 @@ body {
     text-transform: uppercase;
     color: #fff;
   }
+
   ul {
     margin: 0;
     padding: 0;
     list-style: none;
+
     li:first-child {
       .nav-list__link {
         border-top: 1px solid $border-list;
         border-bottom: 1px solid $border-list;
       }
     }
+
     .nav-list__link {
       width: 100%;
       display: inline-block;
@@ -77,6 +81,7 @@ body {
     padding-top: 5px;
     padding-bottom: 5px;
     box-sizing: border-box;
+
     &:hover {
         background: $grey-light;
         color: #3498DB;
@@ -162,6 +167,7 @@ body {
     margin-top: 12%;
   }
 }
+
 .image-hover {
   position: absolute;
   top: 0;
@@ -194,10 +200,12 @@ body {
   bottom: 5px;
   right: 0;
 }
+
 .title-image {
   position: absolute;
   top: 0;
   left: 0;
+
   h3 {
     text-transform: uppercase;
     padding-left: 20px;
@@ -207,11 +215,13 @@ body {
     font-size: 24px;
   }
 }
+
 .item-cell {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
+
   h4 {
     padding-left: 40px;
     padding-top: 5px;
@@ -222,6 +232,7 @@ body {
     font-weight: 400;
     font-size: 18px;
   }
+
   span.folder {
     background: url("../img/icon/folder.png") no-repeat center;
     display: inline-block;
@@ -231,6 +242,7 @@ body {
     top: 5px;
     left: -15px;
   }
+
   span.heart {
     background: url("../img/icon/heart.png") no-repeat center;
     display: inline-block;
@@ -242,10 +254,12 @@ body {
     cursor: pointer;
   }
 }
+
 .social-icon {
   margin-top: 40px;
   position: absolute;
   bottom: 1%;
+
   h4 {
     text-align: center;
     text-transform: uppercase;
@@ -253,6 +267,7 @@ body {
     font-size: 18px;
     color: $text-light;
   }
+
   h5 {
     text-align: center;
     font-weight: 300;
@@ -262,28 +277,35 @@ body {
     bottom: 10px;
   }
 }
+
 ul.site-social-links {
   margin: 0;
   padding: 0;
   list-style: none;
+
   li {
     display: inline-block;
     border: none;
   }
+
   li:hover {
     background: inherit;
   }
+
   li:first-child {
     border: none;
+
     &:hover {
       background: inherit;
     }
+
     span {
       display: inline-block;
       width: 33px;
       height: 33px;
       background: url("../img/icon/icons.png") no-repeat center;
       background-position: 0 -1150px;
+
       &:hover {
         background: url("../img/icon/icons.png") no-repeat center;
         background-position: 0 -1282px;
@@ -297,15 +319,18 @@ ul.site-social-links {
 
   li:nth-child(2) {
     border: none;
+
     &:hover {
       background: inherit;
     }
+
     span {
       display: inline-block;
       width: 33px;
       height: 33px;
       background: url("../../img/icon/icons.png") no-repeat center;
       background-position: 0 -1755px;
+
       &:hover {
         background: url("../../img/icon/icons.png") no-repeat center;
         background-position: 0 -1886px;
@@ -319,15 +344,18 @@ ul.site-social-links {
 
   li:nth-child(3) {
     border: none;
+
     &:hover {
       background: inherit;
     }
+
     span {
       display: inline-block;
       width: 33px;
       height: 33px;
       background: url("../../img/icon/icons.png") no-repeat center;
       background-position: 0 -3436px;
+
       &:hover {
         background: url("../../img/icon/icons.png") no-repeat center;
         background-position: 0 -3568px;
@@ -338,17 +366,21 @@ ul.site-social-links {
       }
     }
   }
+
   li:nth-child(4) {
     border: none;
+
     &:hover {
       background: inherit;
     }
+
     span {
       display: inline-block;
       width: 33px;
       height: 33px;
       background: url("../../img/icon/icons.png") no-repeat center;
       background-position: 0 -5107px;
+
       &:hover {
         background: url("../../img/icon/icons.png") no-repeat center;
         background-position: 0 -5239px;
@@ -360,18 +392,22 @@ ul.site-social-links {
     }
   }
 }
+
 ///////////  about page  ///////////////////
+
 .about-template {
   width: 80%;
   max-width: 1100px;
   margin-left: 40px;
 }
+
 .entry-title {
   font-size: 2.6rem;
   font-weight: 300;
   margin-top: 25px;
   margin-bottom: 25px;
 }
+
 .entry-body {
   p {
     font-weight: 500;
@@ -380,6 +416,7 @@ ul.site-social-links {
     font-size: 1rem;
     text-indent: 20px;
   }
+
   p:last-child {
     text-align: center;
   }
@@ -406,10 +443,12 @@ blockquote {
 
 .list-galleries {
   display: none;
+
   li {
     height: 20px;
   }
 }
+
 .nav-side-menu .list-galleries {
     margin-top: 5px;
 }
@@ -473,71 +512,83 @@ blockquote {
   margin-left: 1.33333rem; }
 
 .count {
-  font-family: "Josefin Slab", serif;
-  color: white;
-  font-size: 42px;
-  font-size: 2.33333rem;
-  line-height: 1.14296;
-  position: relative;
-  top: 3px;
-  top: 0.16667rem;
-  left: 0; }
-  .count sup {
+    font-family: "Josefin Slab", serif;
+    color: white;
+    font-size: 42px;
+    font-size: 2.33333rem;
+    line-height: 1.14296;
+    position: relative;
+    top: 3px;
+    top: 0.16667rem;
+    left: 0;
+}
+.count sup {
     font-family: "Josefin Slab", serif;
     font-size: 50%;
     color: white;
     top: -13px;
     top: -0.72222rem;
     left: 5px;
-    left: 0.27778rem; }
-    .count sup:before {
-      position: relative;
-      top: 2px;
-      top: 0.11111rem;
-      left: -3px;
-      left: -0.16667rem;
-      content: "/"; }
+    left: 0.27778rem;
+  }
+.count sup:before {
+  position: relative;
+  top: 2px;
+  top: 0.11111rem;
+  left: -3px;
+  left: -0.16667rem;
+  content: "/";
+}
 
 .masonry__item .gallery-control {
   width: 100%;
   height: 24px;
   height: 1.33333rem;
   left: 0;
-  right: auto; }
-  .masonry__item .gallery-control .count {
-    text-align: right;
-    float: right;
-    position: absolute;
-    top: auto;
-    left: auto;
-    bottom: 0;
-    right: 24px;
-    right: 1.33333rem; }
-  .masonry__item .gallery-control .arrow-button--left {
-    position: absolute;
-    left: 24px;
-    left: 1.33333rem;
-    bottom: 4px;
-    bottom: 0.22222rem; }
-  .masonry__item .gallery-control .arrow-button--right {
-    position: absolute;
-    left: 24px;
-    left: 1.33333rem;
-    bottom: 4px;
-    bottom: 0.22222rem; }
+  right: auto;
+}
+
+.masonry__item .gallery-control .count {
+  text-align: right;
+  float: right;
+  position: absolute;
+  top: auto;
+  left: auto;
+  bottom: 0;
+  right: 24px;
+  right: 1.33333rem;
+}
+
+.masonry__item .gallery-control .arrow-button--left {
+  position: absolute;
+  left: 24px;
+  left: 1.33333rem;
+  bottom: 4px;
+  bottom: 0.22222rem;
+}
+
+.masonry__item .gallery-control .arrow-button--right {
+  position: absolute;
+  left: 24px;
+  left: 1.33333rem;
+  bottom: 4px;
+  bottom: 0.22222rem; }
 
 .mfp-title {
   font-size: 24px;
   font-size: 1.33333rem;
-  line-height: 1.0001; }
-  .mfp-title small {
-    margin-top: 5px;
-    margin-top: 0.27778rem;
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
-    font-size: 0.66667rem;
-    line-height: 1.0001;
-    font-weight: 300; }
+  line-height: 1.0001;
+}
+
+.mfp-title small {
+  margin-top: 5px;
+  margin-top: 0.27778rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-size: 0.66667rem;
+  line-height: 1.0001;
+  font-weight: 300;
+}
 
 .control-item.count.js-gallery-current-slide {
     font-family: 'Josefin Slab', serif;

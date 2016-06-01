@@ -78,7 +78,7 @@ function niceScrollInit() {
 //     type: 'image' // this is a default type
 // });
 
-$('.content').each(function() { // the containers for all your galleries
+$('.content-gallery').each(function() { // the containers for all your galleries
     $(this).magnificPopup({
         delegate: '.image-container a', // the selector for gallery item
         type: 'image',
