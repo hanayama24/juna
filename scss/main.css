@@ -458,4 +458,33 @@ blockquote {
 button.mfp-arrow {
   display: none !important; }
 
+.map-marker {
+  font-size: 20px;
+  margin-top: 2px;
+  margin-bottom: -10px;
+  font-family: "Roboto", sans-serif; }
+
+#map_canvas {
+  width: calc(100% - 340px);
+  height: 405px;
+  margin-top: 13px;
+  float: left; }
+
+.contact-description {
+  clear: left; }
+  .contact-description h3 {
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #595957;
+    font-size: 1.4rem;
+    text-indent: 20px;
+    font-family: 'Josefin Slab', serif; }
+    .contact-description h3 span {
+      margin-right: 5px;
+      font-weight: 400;
+      font-size: 1.4rem;
+      font-family: "Roboto", sans-serif; }
+
 /*# sourceMappingURL=main.css.map */
